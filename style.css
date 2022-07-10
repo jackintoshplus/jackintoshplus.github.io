@@ -1,0 +1,13 @@
+body {
+    background-color: orange;
+
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 128px;
+}
+
+.button{
+    border: 1px;
+    text-align: center;
+    display: inline-block;
+}
