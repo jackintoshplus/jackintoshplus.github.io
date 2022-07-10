@@ -1,0 +1,146 @@
+/* Body Tag Settings */
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+}
+
+/* Spongefly Animations*/
+@keyframes fly {
+    0% { transform: translate3d(0px, 50px, px); }
+    25% { transform: translate3d(50px, 0px, 0px); }
+    50% { transform: translate3d(0px, -50px, 0px); }
+    100% { transform: translate3d(-50px, 0px, 0px); }
+}
+
+@keyframes fly2 {
+    0% { transform: translate3d(-50px, 0px, px); }
+    25% { transform: translate3d(50px, 0px, 0px); }
+    50% { transform: translate3d(50px, 50px, 0px); }
+    100% { transform: translate3d(-50px, 0px, 0px); }
+}
+
+
+
+/* Spongefly Image Propreties */
+.spongefly{
+    animation-name: fly;
+    animation-duration: 250ms;
+    animation-iteration-count: infinite;
+}
+.spongefly2{
+    position: relative;
+    left:-150px;
+    animation-name: fly;
+    animation-delay: 50ms;
+    animation-duration: 250ms;
+    animation-iteration-count: infinite;
+}
+.spongefly3{
+    position: relative;
+    left:-300px;
+    top:-100px;
+    animation-name: fly2;
+    animation-duration: 250ms;
+    animation-iteration-count: infinite;
+}
+.spongefly4{
+    position: relative;
+    left:-500px;
+    top:-100px;
+    animation-name: fly2;
+    animation-duration: 200ms;
+    animation-delay: 50ms;
+    animation-iteration-count: infinite;
+}
+.spongefly5{
+    position: relative;
+    left:-500px;
+    top:-300px;
+    animation-name: fly;
+    animation-duration: 250ms;
+    animation-delay: 50ms;
+    animation-iteration-count: infinite;
+}
+.spongefly6{
+    position: relative;
+    left:500px;
+    animation-name: fly2;
+    animation-duration: 250ms;
+    animation-delay: 50ms;
+    animation-iteration-count: infinite;
+}
+.spongefly6{
+    position: relative;
+    left:-50px;
+    top:-150px;
+    animation-name: fly2;
+    animation-duration: 250ms;
+    animation-delay: 50ms;
+    animation-iteration-count: infinite;
+}
+.spongefly7{
+    position: relative;
+    left:200px;
+    top:-50px;
+    animation-name: fly;
+    animation-duration: 250ms;
+    animation-delay: 50ms;
+    animation-iteration-count: infinite;
+}
+.spongefly8{
+    position: relative;
+    left:-200px;
+    top:-150px;
+    animation-name: fly;
+    animation-duration: 250ms;
+    animation-delay: 50ms;
+    animation-iteration-count: infinite;
+}
+.spongefly9{
+    position: relative;
+    left:450px;
+    top:-250px;
+    animation-name: fly;
+    animation-duration: 250ms;
+    animation-delay: 50ms;
+    animation-iteration-count: infinite;
+}
+.spongefly10{
+    position: relative;
+    left:150px;
+    top:-450px;
+    animation-name: fly2;
+    animation-direction: reverse;
+    animation-duration: 240ms;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+.spongefly11{
+    position: relative;
+    left:350px;
+    top:-600px;
+    animation-name: fly;
+    animation-duration: 250ms;
+    animation-delay: 20ms;
+    animation-iteration-count: infinite;
+}
+.spongefly12{
+    position: relative;
+    left:400px;
+    top:-550px;
+    animation-name: fly;
+    animation-duration: 250ms;
+    animation-delay: 20ms;
+    animation-iteration-count: infinite;
+}
+.spongefly13{
+    position: relative;
+    left:-450px;
+    top:-490px;
+    animation-name: fly;
+    animation-duration: 260ms;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
