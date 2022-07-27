@@ -7,6 +7,7 @@
 
 var time = new Date();
 
+
 console.log("Time: " + time.getHours + ":" + time.getMinutes);
 
 if((time.getHours == 4 || 14) && (time.getMinute === 44))
