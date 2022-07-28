@@ -12,13 +12,13 @@ console.log("Time: " + time.getHours + ":" + time.getMinutes);
 
 if((time.getHours == 4 || 14) && (time.getMinute === 44))
 {
-    document.getElementById("jayztext").innerHTML == "It is 4:44!";
+    document.getElementById("jayztext").innerHTML == 'It is 4:44!';
     //document.write("It is 4:44!");
     console.log("It is 4:44!");
 }
 else
 {
-    document.getElementById("jayztext").innerHTML == "It is not 4:44...";
+    document.getElementById("jayztext").innerHTML == 'It is not 4:44...';
    // document.write("It is not 4:44.");
     console.log("It is not 4:44...");
 }
